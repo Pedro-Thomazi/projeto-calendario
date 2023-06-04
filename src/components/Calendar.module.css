@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: url('../image/image-manha.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: center;
+}
+
+.calendar {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 200px auto;
+    padding: 10px;
+    width: 700px;
+    height: auto;
+    background: #cccccc56;
+}
+
+.calendar header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid rgb(1, 1, 104);
+    font-size: 1.4em;
+    padding: 10px;
+    color: #fff;
+    background: linear-gradient(45deg, #006eff, #0084ff, #00aeff);
+}
+
+.calendar header hr {
+    width: 100%;
+    margin: 10px;
+}
+
+.arrows {
+    display: flex;
+}
+
+.arrows i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #006eff;
+    margin: 0px 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.arrows i:hover {
+    background: #003cff;
+}
+
+.days_month {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2em;
+}
+
+.days_month p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    margin: 10px;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.days_week {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+}
+
+.days_week p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    margin: 10px 21px 10px 25px;
+    border-radius: 50%;
+}
+
+.days_week p:hover {
+    background: #ffffff2c;
+}
+
+.days_week .today {
+    color: #fff;
+    background: #006eff;
+}
+
+.days_week .today:hover {
+    background: #002fff;
+}
+
+.days_week .other_month {
+    background: #ffffff2c;
+}

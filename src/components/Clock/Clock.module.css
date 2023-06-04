@@ -1,0 +1,19 @@
+.clock {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    height: 150px;
+    border-radius: 0px 0px 10px 10px;
+    background: linear-gradient(-45deg, #006eff, #0084ff, #00aeff);
+    border: 1px solid rgb(1, 1, 104);
+    color: white;
+}
+
+.clock h1 {
+    border-right: 3px solid #0059ff;
+    padding: 10px;
+}
+
+.clock h2 {
+    padding-left: 10px;
+}
